@@ -1,0 +1,274 @@
+.{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body {
+    line-height: 1.6;
+    background-color: #0C090A;
+    color: #2481be;
+    margin: 0;
+    padding: 0px 50px;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    height: 170px;
+    width: 100%;
+    background-color: #EBF4FA;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: space-evenly;*/
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.project-title {
+    font-size: 24px;
+}
+
+h1 {   
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.data h1{
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center
+}
+
+.get-started{
+    color: #EBF4FA;
+    text-decoration: none;
+}
+
+
+
+.data {
+    font-family: 'Lato', sans-serif;
+}
+
+.data1{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.data2{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.data3{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.data4{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.data5{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.data6{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.data7{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.data8{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.data9{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.data10{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}.data11{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}.data12{
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.cardContainer{
+    background-color: rgb(1, 11, 56);
+    padding: 50px 0px;
+    height: 100vh;
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.parent1{
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    perspective: 1000px;
+}
+
+.card1{
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-image: url(/Anas.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+.card2{
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-image: url(/Amna.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+.card3{
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-image: url(/Saad.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+.card4{
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-image: url(/Ali.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+.card5{
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-image: url(/AbdulMoeed.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+.card6{
+    padding-top: 100px;
+    transform-style: preserve-3d;
+    background-image: url(/pfp2.jpg);
+    background-size: cover;
+    background-position: top center;
+    width: 300px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+
+}
+.card1:hover{
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+.card2:hover{
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+.card3:hover{
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+.card4:hover{
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+.card5:hover{
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+.card6:hover{
+    background-position: 80% 20%;
+    transform: rotate3d(0.5, 1, 0, 30deg);
+}
+
+.contentBox{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.811);
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: rgba(0, 115, 255, 0.925) 0px 20px 50px -25px;
+    transition: all 0.5s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.cardTitle{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+
+.cardTitle:hover{
+    transform: translate3d(0px, 0px, 50px);
+}
+
+.card-content{
+    padding: 10px;
+    font-size: 15px;
+    color: rgb(185, 185, 185);
+    transition: all 0.5s ease-in-out;
+    transform: translate3d(0px, 0px, 20px);
+}
+
+.card-content:hover{
+    transform: translate3d(0px, 0px, 50px);
+}
