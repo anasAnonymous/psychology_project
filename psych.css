@@ -17,6 +17,13 @@ body {
     width: 100%;
 }
 
+ul{
+    color: white;
+}
+
+strong{
+    color: #2481be;
+}
 .navbar {
     height: 170px;
     width: 100%;
